@@ -1,0 +1,55 @@
+#pinpad {
+  width: 768px;
+  height: 1448px;
+  background-color: #fff;
+  margin: 0 auto;
+  min-height: 600px;
+  position: static;
+  text-align: center;
+}
+
+#pins {
+  color: #C4C4C4;
+  display: flex;
+  justify-content: center;
+  margin-right: 12px;
+  margin-left: 35px;
+}
+
+#button {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  font-family: Roboto;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  background-color: #fff;
+  border: #fff;
+}
+#button:hover {
+  border-radius: 50%;
+  border-color: blueviolet;
+  border-width: 2px;
+  border-style: solid;
+}
+#button:active {
+  background-color: #2CA6FF;
+  border-color: #2CA6FF;
+  border-width: 2px;
+  border-style: solid;
+  color: #fff;
+}
+
+#message {
+  font-size: 2em;
+}
+
+.\3 2:active {
+  background-color: #2CA6FF;
+  border-color: #2CA6FF;
+  border-width: 2px;
+  border-style: solid;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
